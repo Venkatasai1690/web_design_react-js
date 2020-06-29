@@ -1,0 +1,61 @@
+.para{
+	background-color: #ddd;
+	color:green;
+}
+#paragraph{
+	background-color:#ddd;
+	color:green;
+
+}
+.first,.second,.third,.fourth{
+	border: 2px solid #ddd;
+	margin: 2px;
+	width: 200px;
+	text-align: center;
+}
+/*.first img,.second img,.third img,.fourth img{
+	width : 200px;
+}
+/* for task
+.first{
+	border :2px solid #000;
+	margin: 2px;
+	width: 300px;
+}
+.second{
+	border :2px solid #000;
+	margin: 2px;
+	width: 700px;
+}*/
+img{
+	width: 100px;
+	padding: 10px;
+}
+.parent{
+	display: flex;
+	flex-wrap: wrap;
+
+}
+/*media queiries for mobile view*/
+@media screen and (max-width: 425px){
+	.parent{
+		flex-direction: column;
+	}
+	.first,.second,.third,.fourth{
+		background-color: #c45e45;
+	}
+}
+/*tablet media quiries*/ 
+@media screen and (min-width: 426px) and (max-width: 768px){
+	.parent{
+		flex-direction: row-reverse;
+		justify-content: space-between;
+	}
+	.first,.second,.third,.fourth{
+			border: 2px solid #000;
+			margin: 2px;
+			background-color: #ddd;
+			border-radius: 20px;
+		width: 300px;
+	}
+}
