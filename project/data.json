@@ -1,0 +1,49 @@
+{
+	"details":{
+		
+		"Name":"Venkata Sai",
+		"Email":"nagavsrgukt@gmail.com",
+		"Number":"7661912789",
+		"Address":"Vijayawada"
+	},
+	"careerobjective":{
+		"info":"To become software employee"
+	},
+	"educationalqualification":[
+{
+	"institute":"AP IIIT,RGUKT,RK VALLEY",
+	"degree":"B.Tech",
+	"passoutyear":"2020",
+	"percentage":"--"
+
+},
+{
+	"institute":"AP IIIT,RGUKT,RK VALLEY",
+	"degree":"PUC",
+	"passoutyear":"2016",
+	"percentage":"83%"
+},
+{	
+	"institute":"MOTHER VIDYA NIKETHAN",
+	"degree":"SSC",
+	"passoutyear":"2014",
+	"percentage":"100%"
+}
+  ],
+
+	"technicalskills":[
+	{
+		"title":"Programmig language",
+		"info":["c,java,Python,Go"]
+	},
+	{
+		"title":"Databases",
+		"info":["sql"]
+	},
+	{
+		"title":"Operating system",
+		"info":["windows,fedora,ubuntum,zorin"]
+	}
+
+]
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		// USING OBJECT LITERAL
+		// student={
+			// id:690,
+			// name:"sai",
+			// branch:"ece"
+		// }
+		// document.write(student.id+" "+student.name+" "+student.branch);
+		//USING NEW KEYWORD
+		// var student = new Object();
+		// student.id=690;
+		// student.name="venkat";
+		// student.branch="ece";
+		// document.write(student.id+" "+student.name+" "+student.branch);
+		//USING CONSTRUCTOR
+		function student(id,name,branch){
+			this.id=id;
+			this.name=name;
+			this.branch=branch;
+
+		}
+		e = new student(690,"sai","ECE");
+		document.write(e.id+" "+e.name+" "+e.branch);
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Document</title>
+</head>
+<body>
+	<h1 id="root"></h1>
+
+	<h2 id="root1"></h2>
+</body>
+<script>
+	var a =5;
+	{
+		var a = 10;
+		console.log("local variable");
+		console.log(a);
+	}
+	console.log("global variable");
+	console.log(a);
+	// document.querySelector("#root").innerHTML=a;
+
+	let  b = 5;
+	{
+		let b= 10
+		console.log("local variable");
+		console.log(b);
+ 	}
+ 	console.log("global variable");
+ 	console.log(b);
+ 	// document.querySelector("#root1").innerHTML=b;
+ 	// const
+
+ 	const c = 3.14;
+	{
+		const c= 10;
+		console.log("local variable");
+		console.log(c);
+ 	}
+ 	console.log("global variable");
+ 	console.log(c);
+
+ 	
+</script>
+</html>
