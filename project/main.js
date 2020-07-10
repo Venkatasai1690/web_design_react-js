@@ -22,8 +22,10 @@
 // })
 
 function loadjson(file){
-	return new Promise((resolve,reject)=>{
-		return fetch(file).then(response=>{
+	return new Promise((resolve,reject)=>
+	{
+		return fetch(file).then(response=>
+		{
 			if(response.ok){
 				resolve(response.json());
 			}
@@ -32,8 +34,10 @@ function loadjson(file){
 			}
 
 			
-		})
-	})
+		}
+		)
+	}
+	)
 }
 var newfile =loadjson("data.json");
 newfile.then(data=>{
