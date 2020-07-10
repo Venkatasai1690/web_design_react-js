@@ -74,7 +74,7 @@ function basic(det){
 	child1.appendChild(Email);
 
 
-	var Number = document.createElement("h4")
+	var Number = document.createElement("a")
 	Number.href = "telto:7661912789",
 	Number.textContent=det.Number;	
 	child1.appendChild(Number); 
